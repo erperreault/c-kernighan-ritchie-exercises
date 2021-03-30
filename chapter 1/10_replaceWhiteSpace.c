@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-/* reduce all multi-spaces to one space */
-/* test characters here: \ \    \       */
+/* replace tabs, backspaces, and backslashes 
+in input with \t, \b, or \\              
+
+test characters here: \ \    \           */
+
 int main() {
     int c;
     
